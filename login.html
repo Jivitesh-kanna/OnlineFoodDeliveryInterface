@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+</div>
+  <div class="login-container col-md-4">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <div class="form-group">
+        <input type="text" id="username" name="username" placeholder="Username" class="form-control" autofocus required>
+      </div>
+      <div class="form-group">
+        <input type="password" id="password" name="password" placeholder="Password" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Login" class="btn btn-primary">
+      </div>
+      <div class="error" id="error">Invalid Login</div>
+    </form>
+  <script>
+
+    const form = document.getElementById("loginForm");
+    const error = document.getElementById("error");
+    const usernameInput = document.getElementById("username");
+    const passwordInput = document.getElementById("password");
+    
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      if (usernameInput.value === "orderfood" && passwordInput.value === "foodorder") {
+        window.location.href = "startpage.html";
+      } else {
+        error.style.display = "block";
+        usernameInput.classList.add("blink");
+        passwordInput.classList.add("blink");
+        setTimeout(() => {
+          error.style.display = "none";
+          usernameInput.classList.remove("blink");
+          passwordInput.classList.remove("blink");
+        }, 3000);
+      }
+    });
+    
+    usernameInput.focus();
+  </script>
+  
+</body>
+</html>
