@@ -24,6 +24,25 @@ Technologies Used
 ## CSS
 ## JavaScript
 ## Bootstrap
+
+Screenshots
+Image of the login page
+
 ![Screenshot (126)](https://github.com/Jivitesh-kanna/OnlineFoodDeliveryInterface/assets/93578467/f9eb52f4-30f9-442a-9d4d-919978ce71c9)
+
+![Screenshot (127)](https://github.com/Jivitesh-kanna/OnlineFoodDeliveryInterface/assets/93578467/3da00440-f136-493f-80c1-626a1192b07c)
+
+
+
+Image of the food items page
+
+![Screenshot (128)](https://github.com/Jivitesh-kanna/OnlineFoodDeliveryInterface/assets/93578467/3b785890-998c-42e7-90b0-2088a1ccd684)
+
+![Screenshot (129)](https://github.com/Jivitesh-kanna/OnlineFoodDeliveryInterface/assets/93578467/26037866-2977-4298-8f33-7a05a7ecba0e)
+
+![Screenshot (130)](https://github.com/Jivitesh-kanna/OnlineFoodDeliveryInterface/assets/93578467/9add8ec5-fc56-4020-87ab-d786fd716f69)
+
+
+
 
 
