@@ -3,10 +3,10 @@ Food Delivery Website UI
 This repository contains the user interface (UI) for an online food delivery website. The UI is built with HTML, CSS, JavaScript, and Bootstrap. The UI is responsive and can be used on any device. The UI is also customizable, so you can change the colors, fonts, and other elements to match your brand.
 
 Features:
+Login page with default username and password: orderfood/foodorder
 Responsive design
 Customizable
 Built with HTML, CSS, JavaScript, and Bootstrap
-Login page with default username and password: orderfood/foodorder
 Flex boxes are used to display the food items with photos, price and its name
 Target Audience
 This repository is for developers who want to create an online food delivery website. The UI can be used as a starting point for your own project, or you can use it as-is.
